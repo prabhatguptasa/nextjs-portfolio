@@ -4,6 +4,6 @@ describe('sample render test', () => {
   });
 
   it('displays the title text', () => {
-    cy.get('h1').contains('Software Engineer @ Gameopedia AS⭐Rapid Development⭐Quick Learner⭐End-User Focus');
+    cy.get('h1').contains('Software Engineer @ Gameopedia AS <> Multiple Solutions || Quick Learner || Rapid Development');
   });
 });
